@@ -1,0 +1,111 @@
+html {
+  font-family: Arial, Helvetica, sans-serif
+}
+body {
+  background-color: #343330;
+}
+#wrap {
+  margin: 0px auto;
+  margin-top:100px;
+  width:640px;
+  height:380px;
+  background-image: url("images/wrap.png");
+  background-repeat: no-repeat;
+  background-position:center top;
+}
+#content {
+  padding-top:155px;
+  padding-left:50px;
+  font-size:11px;
+}
+#mail {
+  min-width:17px;
+  min-height:15px;
+  background-image: url("images/mail.png");
+  background-repeat: no-repeat;
+  background-position:center top;
+  float:right;
+  margin:20px;
+  margin-top:25px;
+}
+.message {
+  background-image: url("images/line.png");
+  background-repeat: no-repeat;
+  background-position:center top;
+  width:275px;
+  height:26px;
+}
+.message p {
+  line-height:26px;
+  padding-left:15px;
+  color:#87888a;
+}
+.message a {
+  text-decoration:none;
+  color:#006eb2;
+  background-image: url("images/down.png");
+  background-repeat: no-repeat;
+  background-position:right 3px;
+  padding-right:10px;
+}
+#form {
+  background-image: url("images/form.png");
+  background-repeat: no-repeat;
+  background-position:center top;
+  width:255px;
+  height:183px;
+  display:none;
+  padding:10px;
+}
+form {
+  padding-top:20px;
+  position:relative;
+}
+input {
+  border:none;
+  opacity:.4; /* Firefox/Opera/Safari/Chrome. Basically all the freaking sweet browsers. */ 
+  -ms-filter:"alpha(opacity=40)"; /* IE8 */ 
+  filter:alpha(opacity=40); /* IE6/IE7 */
+}
+textarea {
+  border:none;
+  opacity:.4; /* Firefox/Opera/Safari/Chrome. Basically all the freaking sweet browsers. */ 
+  -ms-filter:"alpha(opacity=40)"; /* IE8 */ 
+  filter:alpha(opacity=40); /* IE6/IE7 */
+}
+submit {
+  color:white;
+}
+#name {
+  height:16px;
+  width:235px;
+  margin-left:10px;
+  margin-top:1px;
+  margin-bottom:10px;
+}
+#email {
+  height:16px;
+  width:235px;
+  margin-left:10px;
+  margin-bottom:10px;
+}
+#comment {
+  height:50px;
+  width:235px;
+  margin-left:10px;
+  margin-bottom:10px;
+}
+#submit {
+  background-color:#006eb2;
+  color:#FFFFFF;
+  float:right;
+  font-weight: bold;
+  border:none;
+  margin-right: 5px;
+  margin-top: 6px;
+  width: 60px;
+  cursor:pointer;
+}
+#thanks {
+  display:none;
+}
