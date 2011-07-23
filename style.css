@@ -37,6 +37,7 @@ body {
 }
 .message p {
   line-height:26px;
+  padding:0px;
   padding-left:15px;
   color:#87888a;
 }
@@ -89,23 +90,32 @@ submit {
   margin-left:10px;
   margin-bottom:10px;
 }
-#comment {
+#comments {
   height:50px;
   width:235px;
   margin-left:10px;
-  margin-bottom:10px;
+  margin-bottom:9px;
 }
 #submit {
+  height:20px;
+  width:64px;
+  padding:0px;
+  margin:0 5px 0 0;
   background-color:#006eb2;
   color:#FFFFFF;
   float:right;
   font-weight: bold;
   border:none;
-  margin-right: 5px;
-  margin-top: 6px;
-  width: 60px;
   cursor:pointer;
 }
 #thanks {
   display:none;
+  background-image: url("images/sent.png");
+  background-repeat: no-repeat;
+  background-position:center top;
+  width:275px;
+  height:26px;
+}
+.highlight {
+  background-color:red;
 }

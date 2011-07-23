@@ -23,10 +23,10 @@
         </div>
       </div>
       <div id="form">
-        <form>
+        <form method="post" action="email.php">
           <input id="name" type="text" name="name" />
           <input id="email" type="text" name="email" />
-          <textarea id="comment" name="textarea"></textarea>
+          <textarea id="comments" name="comments"></textarea>
           <button id="submit" type="submit" value="Submit">SUBMIT</button>
         </form>
       </div>
