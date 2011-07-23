@@ -107,6 +107,7 @@ submit {
   font-weight: bold;
   border:none;
   cursor:pointer;
+  border: 1px solid #9cb2d8;
 }
 #thanks {
   display:none;
