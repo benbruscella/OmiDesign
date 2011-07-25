@@ -9,9 +9,9 @@
 </head>
 <body id="index" onload="">
   <div id="wrap">
-    <div id="mail">
+    <a href="http://host.pressnow.com.au/webmail/src/login.php" id="mail">
       
-    </div>
+    </a>
     <div id="content">
       <div id="contact" class="message">
         <p>
@@ -35,6 +35,9 @@
           Your message was sent successfully. Thanks
         </p>
       </div>
+    </div>
+    <div id="footer">
+      <a href="http://www.omidesign.com">Website Design Melbourne<div id="omi">OMIDESIGN</div></a>
     </div>
   </div>
 </body>

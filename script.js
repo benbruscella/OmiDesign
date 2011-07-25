@@ -2,15 +2,54 @@
 $(document).ready(function() {
   
   var location = window.location.hostname;
-
-  $("#mail").click( function(){
-    alert('link to mail');
-  });
   
   $("#message-button").click( function(){
     $("#contact").hide();
     $("#form").show().slideDown();
   });
+
+  var nameString = "Name";
+  $("#name").focus(function(srcc)
+  {
+      if ($(this).val() == nameString) 
+        $(this).val("");
+  });
+
+  $("#name").blur(function()
+  {
+      if ($(this).val() == "")
+          $(this).val(nameString);
+  });   
+  $("#name").blur();
+
+  var emailString = "Email";
+  $("#email").focus(function(srcc)
+  {
+      if ($(this).val() == emailString) 
+        $(this).val("");
+  });
+
+  $("#email").blur(function()
+  {
+      if ($(this).val() == "")
+          $(this).val(emailString);
+  });   
+  $("#email").blur();
+
+  var commentsString = "Comments";
+  $("#comments").focus(function(srcc)
+  {
+      if ($(this).val() == commentsString) 
+        $(this).val("");
+  });
+
+  $("#comments").blur(function()
+  {
+      if ($(this).val() == "")
+          $(this).val(commentsString);
+  });   
+  $("#comments").blur();
+
 
   $('#form').submit(function() {
 
