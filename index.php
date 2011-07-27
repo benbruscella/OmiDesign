@@ -14,9 +14,9 @@
     </a>
     <div id="content">
       <div id="contact" class="message">
-        <p>
+        <p class="message-button">
           Please contact us via email 
-          <a href ="#" id="message-button" >click here</a>
+          <a href ="#" class="message-button" >click here v</a>
         </p>
         <div id="logo">
           <img src="images/logo.png"/>
@@ -34,10 +34,14 @@
         <p>
           Your message was sent successfully. Thanks
         </p>
+        <div id="logo">
+          <img src="images/logo.png"/>
+        </div>
       </div>
     </div>
     <div id="footer">
-      <a href="http://www.omidesign.com">Website Design Melbourne<div id="omi">OMIDESIGN</div></a>
+      <a href="http://www.omidesign.com">Website Design Melbourne </a>
+      <div id="omi">OMiDESIGN</div>
     </div>
   </div>
 </body>

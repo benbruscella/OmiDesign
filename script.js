@@ -3,7 +3,7 @@ $(document).ready(function() {
   
   var location = window.location.hostname;
   
-  $("#message-button").click( function(){
+  $(".message-button").click( function(){
     $("#contact").hide();
     $("#form").show().slideDown();
   });
@@ -60,17 +60,17 @@ $(document).ready(function() {
 
     //Simple validation to make sure user entered something
     //If error found, add hightlight class to the text field
-    if (name.val()=='') {
+    if (name.val()=='' || name.val()=='Name') {
         name.addClass('highlight');
         return false;
     } else name.removeClass('highlight');
      
-    if (email.val()=='') {
+    if (email.val()=='' || email.val()=='Email') {
         email.addClass('highlight');
         return false;
     } else email.removeClass('highlight');
      
-    if (comments.val()=='') {
+    if (comments.val()=='' || comments.val()=='Comments') {
         comments.addClass('highlight');
         return false;
     } else comments.removeClass('highlight');

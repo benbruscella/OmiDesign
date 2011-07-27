@@ -29,6 +29,9 @@ body {
   margin:20px;
   margin-top:25px;
 }
+.message-button {
+  cursor:pointer;
+}
 .message {
   background-image: url("images/line.png");
   background-repeat: no-repeat;
@@ -45,12 +48,9 @@ body {
 .message a {
   text-decoration:none;
   color:#006eb2;
-  background-image: url("images/down.png");
-  background-repeat: no-repeat;
-  background-position:right 3px;
-  padding-right:10px;
 }
 #form {
+  position:relative;
   background-image: url("images/form.png");
   background-repeat: no-repeat;
   background-position:center top;
@@ -61,7 +61,6 @@ body {
 }
 form {
   padding-top:20px;
-  position:relative;
 }
 input {
   border:none;
@@ -98,10 +97,11 @@ submit {
   margin-bottom:9px;
 }
 #submit {
+  position:absolute;
   height:20px;
   width:64px;
   padding:0px;
-  margin:0 5px 0 0;
+  margin:0;
   background-color:#006eb2;
   color:#FFFFFF;
   float:right;
@@ -109,6 +109,8 @@ submit {
   border:none;
   cursor:pointer;
   border: 1px solid #9cb2d8;
+  bottom:27px;
+  right:13px;
 }
 #thanks {
   display:none;
@@ -128,21 +130,19 @@ submit {
   bottom:32px;
 }
 #footer a {
-  text-decoration:none;
+  color:#A9AAAC;
+  text-decoration:underline;
 }
 #footer a:visited {
-  color:#000;
+  color:#A9AAAC;
 }
 #footer a:hover {
   text-decoration:underline;
+  color:#006EB2;
 }
 
 #omi {
   display:inline;
-  background-image: url("images/omi.png");
-  background-repeat: no-repeat;
-  background-position:left center;
-  padding:0px;
-  margin:0px;
-  padding-left:20px;
+  text-decoration:none;  
+  color:#A9AAAC;
 }
