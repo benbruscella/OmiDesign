@@ -23,6 +23,9 @@
         </div>
       </div>
       <div id="form">
+        <p class="short-message">
+          Please contact us via email 
+        </p>
         <form method="post" action="email.php">
           <input id="name" type="text" name="name" />
           <input id="email" type="text" name="email" />
@@ -40,7 +43,7 @@
       </div>
     </div>
     <div id="footer">
-      <a href="http://www.omidesign.com">Website Design Melbourne </a>
+      <a href="http://www.omidesign.com" target="_blank">Website Design Melbourne </a>
       <div id="omi">OMiDESIGN</div>
     </div>
   </div>

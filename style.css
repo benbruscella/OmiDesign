@@ -49,6 +49,13 @@ body {
   text-decoration:none;
   color:#006eb2;
 }
+.short-message {
+  top:-2px;
+  left:15px;
+  position:absolute;
+  float:left;
+  color:#87888a;
+}
 #form {
   position:relative;
   background-image: url("images/form.png");
