@@ -9,7 +9,7 @@
 </head>
 <body id="index" onload="">
   <div id="wrap">
-    <a href="http://host.pressnow.com.au/webmail/src/login.php" id="mail">
+    <a href="http://host.pressnow.com.au/webmail/src/login.php" target="_blank" id="mail">
       
     </a>
     <div id="content">
